@@ -1,0 +1,23 @@
+.hero {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(132deg,
+      rgba(42, 42, 43, 0.8) 0%,
+      rgba(255, 255, 255, 0.01) 100%),
+    url(assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  color: white;
+}
+
+.title h1 {
+  font-family: monospace;
+  font-size: 100px;
+}
